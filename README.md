@@ -36,29 +36,51 @@ Five visualization PNG files:
 - `chart_4_top_10_features.png` - Top 10 Feature Importances
 - `chart_5_roc_curves.png` - ROC Curves comparison (bonus)
 
-### 4. **HR_Attrition.csv** (Dataset)
+### 4. **WA_Fn-UseC_-HR-Employee-Attrition.csv** (Dataset)
 IBM HR Analytics Employee Attrition Dataset (1,470 employees, 35 features)
+✅ **Already included in this repository** - no need to download from Kaggle!
 
 ## How to Use
 
-### Step 1: Get the Dataset
-The dataset is NOT included in this folder. Download it from Kaggle:
-
-1. Go to: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
-2. Create a free Kaggle account (if you don't have one)
-3. Download the file: `WA_Fn-UseC_-HR-Employee-Attrition.csv`
-4. Place it in this folder with the notebook
+### Step 1: Open in Google Colab (RECOMMENDED - EASIEST)
+1. Go to: https://colab.research.google.com
+2. Click "File" → "Open notebook" → "GitHub"
+3. Paste this repo URL: `https://github.com/Prem-0007/EmployeeAttrition_BALLA_PREM_KUMAR`
+4. Select `analysis.ipynb`
+5. It will load directly from GitHub ✅
 
 ### Step 2: Run the Notebook
-1. Open `analysis.ipynb` in Jupyter Notebook or Google Colab
-2. Ensure `WA_Fn-UseC_-HR-Employee-Attrition.csv` is in the same folder
-3. Run all cells in order from top to bottom
-4. All visualizations will be generated automatically
+1. First cell has the GitHub CSV link - it will load automatically
+2. Click the ▶️ Play button on each cell
+3. Or go to "Runtime" → "Run all" to run everything at once
+4. All visualizations will be generated automatically ✅
 
 ### Step 3: Review Results
 - Check the console output for key statistics and insights
-- Review generated charts in the `charts/` folder
+- Review generated charts (displayed in notebook)
 - Read `summary.docx` for HR-friendly recommendations
+
+---
+
+## Alternative: Run Locally
+
+If you want to run on your computer:
+
+```bash
+# Clone from GitHub
+git clone https://github.com/Prem-0007/EmployeeAttrition_BALLA_PREM_KUMAR.git
+
+# Go into folder
+cd EmployeeAttrition_BALLA_PREM_KUMAR
+
+# Install packages
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
+# Run notebook
+jupyter notebook analysis.ipynb
+```
+
+The CSV file is already in the repo, so no extra download needed! ✅
 
 ## Key Findings
 
